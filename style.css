@@ -6,3 +6,22 @@
     height: 400px;
     color: white;
 }
+.nav-bar{
+    position: absolute;
+    top:0;
+    background: rgb(rgb(197, 187, 187), rgb(129, 134, 129), rgb(209, 209, 233));
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.nav-bar a:hover{
+    color:blue;
+}
