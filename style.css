@@ -23,5 +23,14 @@
 }
 
 .nav-bar a:hover{
-    color:blue;
+    text-decoration: underline;
+}
+
+.banner-heading{
+    position: absolute;
+    top:50%;
+    left:50%;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgb(240, 12, 137);
 }
